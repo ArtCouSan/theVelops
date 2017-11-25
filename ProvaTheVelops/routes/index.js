@@ -3,10 +3,10 @@ var router = express.Router();
 var mongoose = require('mongoose');
 
 // Instancia do banco de dados com conexao
-var db = mongoose.connect('mongodb://localhost/TheVelopsBD2');
+var db = mongoose.connect('mongodb://localhost/TheVelopsBD');
 
-// Objeto que recebe a classe com o model de usuario
-Obj_User = require('./../model/ModelUser');
+// Objeto que recebe a classe com o model de usuatrio
+Obj_User = require('./../user/userService');
 
 // Tela Home
 router.get('/', function (req, res, next) {
