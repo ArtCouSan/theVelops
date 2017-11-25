@@ -26,10 +26,32 @@ Use o comando npm start na pasta.
 ## 4 - Instruções de execução
 
 ```
-Sugestão: use o postman ou o resteasy da google para executar as rotas da app.
 A url(http://localhost:3000/) inicial contem as instruções das rotas criadas pelo **Swagger**.
-Obs: erros ocasionam fechando do app na npm, caso ocorra um erro execute o comando: npm start novamente.
+- Sugestão: use o postman ou o resteasy da google para executar as rotas da app.
+- Obs: erros ocasionam fechando do app na npm, caso ocorra um erro execute o comando: npm start novamente.
+- Obs 2: utilize o contente-type: application/x-www-form-unlercoded para enviar os valores
 ```
+
+## Exemplos para caso de duvida em Swagger:
+```
+method get: http://localhost:3000/users
+```
+```
+method post: http://localhost:3000/users
+key = nome / value = ...
+```
+```
+method get: http://localhost:3000/users/5a199a731c41532914efaeab -> id
+```
+```
+method put:http://localhost:3000/users/5a199a731c41532914efaeab ->
+key = nome / value = ...
+```
+```
+method delete:http://localhost:3000/users/5a199a731c41532914efaeab -> id
+```
+
+
 ## Autor: 
 
 Arthur Coutinho Santos
