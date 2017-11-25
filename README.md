@@ -27,7 +27,7 @@ Use o comando npm start na pasta.
 
 ```
 Sugestão: use o postman ou o resteasy da google para executar as rotas da app.
-A url inicial contem as instruções das rotas criadas pelo Swagger.
+A url(http://localhost:3000/) inicial contem as instruções das rotas criadas pelo **Swagger**.
 Obs: erros ocasionam fechando do app na npm, caso ocorra um erro execute o comando: npm start novamente.
 ```
 ## Autor: 
