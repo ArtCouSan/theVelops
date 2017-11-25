@@ -44,11 +44,11 @@ key = nome / value = ...
 method get: http://localhost:3000/users/5a199a731c41532914efaeab -> id
 ```
 ```
-method put:http://localhost:3000/users/5a199a731c41532914efaeab ->
+method put: http://localhost:3000/users/5a199a731c41532914efaeab ->
 key = nome / value = ...
 ```
 ```
-method delete:http://localhost:3000/users/5a199a731c41532914efaeab -> id
+method delete: http://localhost:3000/users/5a199a731c41532914efaeab -> id
 ```
 
 
