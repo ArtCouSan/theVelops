@@ -29,7 +29,7 @@ Use o comando npm start na pasta.
 A url(http://localhost:3000/) inicial contem as instruções das rotas criadas pelo **Swagger**.
 - Sugestão: use o postman ou o resteasy da google para executar as rotas da app.
 - Obs: erros ocasionam o fechamento da app na npm, caso ocorra um erro execute o comando: npm start novamente.
-- Obs 2: utilize o contente-type: application/x-www-form-unlercoded para enviar os valores
+- Obs 2: utilize o content-type: application/x-www-form-unlercoded para enviar os valores
 ```
 
 ## Exemplos para caso de duvida em Swagger:
@@ -57,5 +57,7 @@ method delete:http://localhost:3000/users/5a199a731c41532914efaeab -> id
 Arthur Coutinho Santos
 
 ## Data : 25/11/2017
+
+## Licença MIT
 
 
